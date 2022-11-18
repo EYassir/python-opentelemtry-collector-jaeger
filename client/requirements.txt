@@ -1,0 +1,6 @@
+
+flask
+requests
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-flask
+opentelemetry-instrumentation-requests

@@ -1,0 +1,6 @@
+FROM python
+WORKDIR /client
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY client.py .
+CMD ["python","client.py"]
